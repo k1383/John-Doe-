@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --Open-Sans : "Open Sans", sans-serif;
+    --Raleway : "Raleway", sans-serif;
+}
+
+* {
+    margin: 0;
+}
+body{
+    max-width: 1440px;
+    margin:auto;
+    padding:0 15px;
+    background-color: #011826;
+}
+img {
+    width: 100%;
+}
+
+/* Header */
+
+#burgermenu {
+    display: none;
+}
+header {
+   display: flex;
+   justify-content: space-between;
+   margin: 10px;
+   align-items: center;
+}
+header img {
+    width: 180px;
+    height: 36.89px;
+}
+header p {
+    font-family: var(--Open-Sans);
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+header nav a {
+    color: #FF9A16;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+header li {
+    list-style: none;
+}
+#Accueil {
+    color: #E7174A;
+}
+
+/* Section 1 */
+#Section-1 {
+    margin: 90px 0;
+}
+#Section-1 div {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+#Section-1 h1 {
+    font-family: var(--Raleway);
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+    margin: 15px 0;
+}
+#Section-1 p {
+    font-family: var(--Open-Sans);
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    margin: 13px 0;
+}
+#Section-1 img {
+    width: 664px;
+    height: 664px;
+}
+
+/* Section 2 */
+
+/* Div 1 */
+
+#div1 {
+    display: flex;
+    justify-content: center;
+}
+#Section-2 h2 {
+    font-family: var(--Raleway);
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    
+}
+#Section-2 img {
+    width: 798px;
+    height: 798px;
+    
+}
+#Section-2 h3 {
+    color: white;
+    font-weight: 700;
+    font-size: 21px;
+    margin: 25px 38px ;
+}
+#Section-2 p {
+    font-family: var(--Open-Sans);
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    margin: 25px 38px;
+}
+#Formation {
+    background-color: #FF9A16;
+    width: 442px;
+    height: 452px;
+   
+}
+#div1 a {
+    color: white;
+    text-decoration: none;
+    background-color: #011826;
+    border: 1px solid white;
+    padding: 10px;
+    font-family: var(--Open-Sans);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Div 2 */
+
+#div2 {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+
+
+
+
+
+
+/* Section 3 */
+
+#Section-3 h2 {
+    color: white;
+    text-align: center;
+    font-family: var(--Raleway);
+    font-weight: 700;
+    font-size: 36px;
+}
+
+#Section-3 div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#Section-3 a {
+    color: #FF9A16;
+    text-decoration: none;
+    font-family: var(--Open-Sans);
+    font-weight: 600;
+    font-size: 18px;
+}
+#Section-3 li {
+    list-style: none;
+}
+
+/* Section 4 */ 
+
+#Mes-projets{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+.btn {
+    border: 1px solid white;
+    background-color: #011826;
+    color: white;
+    font-family: var(--Open-Sans);   
+    font-weight: 400;
+    font-size: 16px;
+}
+#Section-4 h2 {
+    color: white;
+    font-family: var(--Raleway);
+    font-weight: 700;
+    font-size: 36px;
+}
+#Section-4 img {
+    width: 414.67px;
+    height: 180px;
+    margin: 10px 10px;
+}
+#Section-4  h3 {
+    color: white;
+    font-family: var(--Raleway);
+    font-weight: 700;
+    font-size: 21px;
+}
+#Section-4 p {
+    font-family: var(--Open-Sans);
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    margin: 15px 0;
+}
+#Project {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+#Project article {
+   border: 1px solid white;
+    padding: 5px;
+    padding-bottom: 1px;
+   
+}
+.info {
+    margin: 20px 10px;
+}
+
+/* footer */
+footer {
+    background-color: #2CC1AA;
+    height: 52px;
+    
+}
+footer p {
+    color: white;
+    font-family: var(--Open-Sans);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    
+}
