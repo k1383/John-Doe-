@@ -70,9 +70,13 @@ header li {
     margin: 101px 0;
 }
 #Section-1 div {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    gap: 200px;
+    gap: 200px; */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
 }
 #Section-1 h1 {
     font-family: var(--Raleway);
@@ -309,6 +313,38 @@ footer p {
     }
     nav {
         display: none;
+    }
+
+    /* Section 1 */
+
+    #Section-1 div {
+        /* display: flex;
+        justify-content: space-between;
+        gap: 200px; */
+    
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 100px;
+    }
+
+    #Section-1 img {
+        width: 369px;
+        height: 369px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Section 2 */
+
+    #Section-2 img {
+        width: 516.59px;
+        height: 516.56px;
+    }
+
+    /* Section 3 */
+
+    #Section-3 li {
+        width: 400px;
     }
 
     /* Section 4 */
