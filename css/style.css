@@ -145,12 +145,6 @@ header li {
     margin: 100px 0;
 }
 
-
-
-
-
-
-
 /* Section 3 */
 
 #Section-3 h2 {
@@ -159,21 +153,33 @@ header li {
     font-family: var(--Raleway);
     font-weight: 700;
     font-size: 36px;
+    
 }
 
 #Section-3 div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+ display: flex;
+ justify-content: center;
+
+ 
+  
+} 
 #Section-3 a {
     color: #FF9A16;
     text-decoration: none;
     font-family: var(--Open-Sans);
     font-weight: 600;
     font-size: 18px;
+    border-bottom: #E7174A 2px solid;
+    padding: 5px ;
+    margin: 15px;
+   
 }
 #Section-3 li {
     list-style: none;
+    background-color: white;
+    width: 700px;
+    height: 54px;
+    margin: 20px ;
 }
 
 /* Section 4 */ 
@@ -183,7 +189,7 @@ header li {
     justify-content: space-between;
     margin: 100px 0;
 }
-.btn {
+#btn1 {
     border: 1px solid white;
     background-color: #011826;
     color: white;
@@ -230,11 +236,15 @@ header li {
 .info {
     margin: 20px 10px;
 }
-#button {
-   
-    margin: 30px 20px;
-    display: flex;
-    gap: 390px;
+.btn2 {
+    border: 1px solid white;
+    background-color: #011826;
+    color: white;
+    font-family: var(--Open-Sans);   
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 10px;
+    margin: 15px 10px;
 }
 
 /* footer */
