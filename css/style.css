@@ -60,7 +60,7 @@ header li {
 
 /* Section 1 */
 #Section-1 {
-    margin: 90px 0;
+    margin: 101px 0;
 }
 #Section-1 div {
     display: flex;
@@ -113,6 +113,7 @@ header li {
     font-size: 36px;
     color: white;
     text-align: center;
+    margin: 70px 0;
 }
 #Section-2 img {
     width: 798px;
@@ -165,8 +166,7 @@ header li {
     width: 442px;
     height: 452px;
     position: relative;
-    top: 180px;
-    
+    top: 180px; 
 }
 #IMGdwwn {
     position: relative;
@@ -181,6 +181,7 @@ header li {
     font-family: var(--Raleway);
     font-weight: 700;
     font-size: 36px;
+    margin: 30px 0;
 }
 #Section-3 div {
     display: flex;
@@ -193,7 +194,7 @@ header li {
     font-weight: 600;
     font-size: 18px;
     border-bottom: #E7174A 2px solid;
-    padding: 5px ;
+    padding: 5px;
     margin: 15px;
 }
 #Section-3 li {
@@ -201,7 +202,7 @@ header li {
     background-color: white;
     width: 700px;
     height: 54px;
-    margin: 20px ;
+    margin: 20px;
 }
 
 /* Section 4 */ 
@@ -279,6 +280,7 @@ header li {
 footer {
     background-color: #2CC1AA;
     height: 52px;
+    
 }
 footer p {
     color: white;
