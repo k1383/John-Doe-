@@ -94,18 +94,29 @@ header li {
     display: flex;
     justify-content: center;
 }
+#div1 a {
+    color: white;
+    text-decoration: none;
+    background-color: #011826;
+    border: 1px solid white;
+    padding: 10px;
+    font-family: var(--Open-Sans);
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    top: 30px;
+    left: 160px;
+}
 #Section-2 h2 {
     font-family: var(--Raleway);
     font-weight: 700;
     font-size: 36px;
     color: white;
     text-align: center;
-    
 }
 #Section-2 img {
     width: 798px;
     height: 798px;
-    
 }
 #Section-2 h3 {
     color: white;
@@ -124,17 +135,9 @@ header li {
     background-color: #FF9A16;
     width: 442px;
     height: 452px;
-   
-}
-#div1 a {
-    color: white;
-    text-decoration: none;
-    background-color: #011826;
-    border: 1px solid white;
-    padding: 10px;
-    font-family: var(--Open-Sans);
-    font-weight: 400;
-    font-size: 16px;
+    position: relative;
+    top: 180px;
+    right: 90px;
 }
 
 /* Div 2 */
@@ -143,6 +146,31 @@ header li {
     display: flex;
     justify-content: center;
     margin: 100px 0;
+}
+#div2 a {
+    color: white;
+    text-decoration: none;
+    background-color: #011826;
+    border: 1px solid white;
+    padding: 10px;
+    font-family: var(--Open-Sans);
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    top: 30px;
+    left: 160px;
+}
+#Formation-2 {
+    background-color: #FF9A16;
+    width: 442px;
+    height: 452px;
+    position: relative;
+    top: 180px;
+    
+}
+#IMGdwwn {
+    position: relative;
+    right: 90px;
 }
 
 /* Section 3 */
@@ -153,15 +181,10 @@ header li {
     font-family: var(--Raleway);
     font-weight: 700;
     font-size: 36px;
-    
 }
-
 #Section-3 div {
- display: flex;
- justify-content: center;
-
- 
-  
+    display: flex;
+    justify-content: center;
 } 
 #Section-3 a {
     color: #FF9A16;
@@ -172,7 +195,6 @@ header li {
     border-bottom: #E7174A 2px solid;
     padding: 5px ;
     margin: 15px;
-   
 }
 #Section-3 li {
     list-style: none;
@@ -231,7 +253,6 @@ header li {
    border: 1px solid white;
     padding: 5px;
     padding-bottom: 1px;
-   
 }
 .info {
     margin: 20px 10px;
@@ -253,11 +274,11 @@ header li {
     font-weight: 400;
     font-size: 16px;
 }
+
 /* footer */
 footer {
     background-color: #2CC1AA;
     height: 52px;
-    
 }
 footer p {
     color: white;
