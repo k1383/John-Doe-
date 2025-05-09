@@ -196,7 +196,6 @@ header li {
     /* border-bottom: #E7174A 2px solid; */
     border: #E7174A 2px solid;
     padding: 5px; 
-    
     margin: 15px;
 }
 #Section-3 li {
@@ -281,8 +280,8 @@ header li {
 /* footer */
 footer {
     background-color: #2CC1AA;
-    height: 52px;
-    
+    padding: 15px; 
+    margin: 0px -232px;
 }
 footer p {
     color: white;
