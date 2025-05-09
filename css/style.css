@@ -9,7 +9,7 @@
 * {
     margin: 0;
 }
-body{
+body {
     max-width: 1440px;
     margin:auto;
     padding:0 15px;
@@ -56,6 +56,13 @@ header li {
 }
 #Accueil {
     color: #E7174A;
+}
+#Contactez-moi {
+    color: white;
+    background-color: #FF9A16;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 /* Section 1 */
@@ -188,7 +195,7 @@ header li {
     background-color: white;
     margin: 20px 0;
     padding: 15px;
-    width: 700px;
+    width: 670px;
 }
 #Section-3 a {
     color: #FF9A16;
@@ -202,6 +209,7 @@ header li {
 #Compétences {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 /* Section 4 */ 
@@ -209,7 +217,7 @@ header li {
 #Mes-projets{
     display: flex;
     justify-content: space-between;
-    margin: 100px 0;
+    margin: 100px 0; 
 }
 #btn1 {
     border: 1px solid white;
@@ -245,8 +253,8 @@ header li {
     margin: 15px 0;
 }
 #Project {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
 }
 #Project article {
@@ -286,4 +294,28 @@ footer p {
     font-weight: 400;
     font-size: 16px;
     text-align: center;
+}
+
+
+@media screen and (max-width:1024px) {
+
+    /* header */ 
+
+    #burgermenu{
+        display: flex;
+        color: white;
+        font-weight: 900;
+        font-size: 16px;
+    }
+    nav {
+        display: none;
+    }
+
+    /* Section 4 */
+
+    #Project{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+
 }
