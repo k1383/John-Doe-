@@ -336,6 +336,15 @@ footer p {
         width: 516.59px;
         height: 516.56px;
     }
+    #Formation {
+        position: relative;
+        top: 10px;
+        right: 90px;
+    }
+    #Formation-2 {
+        position: relative;
+        top: 10px;
+    }
 
     /* Section 3 */
 
@@ -348,6 +357,35 @@ footer p {
     #Project{
         display: grid;
         grid-template-columns: 1fr 1fr ;
+    }     
+    
+
+}
+
+@media screen and (max-width:767px) {
+    /* header */
+
+    /* Section 1 */
+
+    #Section-1 img {
+        width: 261px;
+        height: 261px;
     }
 
+    /* Section 2 */
+
+    #Section-2 img {
+        height: 203px;
+        width: 203px;
+    }
+
+    /* Section 3 */
+
+    /* Section 4 */
+
+    #Project{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }     
+    
 }
