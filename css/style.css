@@ -190,6 +190,7 @@ header li {
     font-family: var(--Open-Sans);   
     font-weight: 400;
     font-size: 16px;
+    padding: 10px 10px;
 }
 #Section-4 h2 {
     color: white;
@@ -230,9 +231,10 @@ header li {
     margin: 20px 10px;
 }
 #button {
+   
+    margin: 30px 20px;
     display: flex;
-    justify-content: center;
-    margin: 30px 0;
+    gap: 390px;
 }
 
 /* footer */
