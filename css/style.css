@@ -193,8 +193,10 @@ header li {
     font-family: var(--Open-Sans);
     font-weight: 600;
     font-size: 18px;
-    border-bottom: #E7174A 2px solid;
-    padding: 5px;
+    /* border-bottom: #E7174A 2px solid; */
+    border: #E7174A 2px solid;
+    padding: 5px; 
+    
     margin: 15px;
 }
 #Section-3 li {
