@@ -246,7 +246,13 @@ header li {
     padding: 10px 10px;
     margin: 15px 10px;
 }
-
+#Section-4 a {
+    color: white;
+    text-decoration: none;
+    font-family: var(--Open-Sans);
+    font-weight: 400;
+    font-size: 16px;
+}
 /* footer */
 footer {
     background-color: #2CC1AA;
