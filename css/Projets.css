@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --Open-Sans : "Open Sans", sans-serif;
+    --Raleway : "Raleway", sans-serif;
+}
+
+* {
+    margin: 0;
+}
+body {
+    background-color: #011826;
+}
+.container {
+    max-width: 1440px;
+    margin:auto;
+    padding:0 15px;
+}
+img {
+    width: 100%;
+}
+
+/* Header */
+
+#burgermenu {
+    display: none;
+}
+header {
+   display: flex;
+   justify-content: space-between;
+   margin: 10px;
+   align-items: center;
+}
+header img {
+    width: 180px;
+    height: 36.89px;
+}
+header p {
+    font-family: var(--Open-Sans);
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+header nav a {
+    color: #FF9A16;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+header li {
+    list-style: none;
+}
+#Mes-projets {
+    color: #E7174A;
+}
+#Contactez-moi {
+    color: white;
+    background-color: #FF9A16;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Section 1 */
+
+#Section-1 {
+    background-color: rgba(231, 23, 74, 1);
+    text-align: center;
+    padding: 130px;
+    margin: 30px 0;
+}
+#Section-1 h1 {
+    color: white;
+    font-family: var(--Raleway);
+    font-size: 36px;
+    font-weight: 700;
+}
+#Section-1 p {
+    color: white;
+    font-family: var(--Open-Sans);
+    font-weight: 400;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+
+/* Section 4 */
+
+#Section-2 img {
+    width: 414.67px;
+    height: 180px;
+    margin: 10px 10px;
+}
+#Section-2  h3 {
+    color: white;
+    font-family: var(--Raleway);
+    font-weight: 700;
+    font-size: 21px;
+}
+#Section-2 p {
+    font-family: var(--Open-Sans);
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    margin: 15px 0;
+}
+#Section-2 a {
+    color: white;
+    text-decoration: none;
+    font-family: var(--Open-Sans);
+    font-weight: 400;
+    font-size: 16px;
+}
+#Project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin: 90px 0;
+}
+#Project article {
+   border: 1px solid white;
+    padding: 5px;
+    padding-bottom: 1px;
+}
+.info {
+    margin: 20px 10px;
+}
+.btn1 {
+    border: 1px solid white;
+    background-color: #011826;
+    color: white;
+    font-family: var(--Open-Sans);   
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 10px;
+    margin: 15px 10px;
+}
+
+/* Section 3 */
+
+#Section-3 ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#Section-3 li {
+    list-style: none;
+}
+#Section-3 ul a{
+    color: #FF9A16;
+    text-decoration: none;
+    font-family: var(--Open-Sans);
+    font-weight: 400;
+    font-size: 16px;
+}
+#Section-3 #Chiffre {
+    color: #E7174A;
+}
+
+/* footer */
+
+footer {
+    background-color: #2CC1AA;
+    height: 152px;
+    
+}
+footer p {
+    color: white;
+    font-family: var(--Open-Sans);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
