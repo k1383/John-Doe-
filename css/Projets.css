@@ -48,6 +48,9 @@ header nav a {
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
+    &:hover {
+        color: #E7174A;
+    }
 }
 header ul {
     display: flex;
@@ -60,12 +63,30 @@ header li {
 #Mes-projets {
     color: #E7174A;
 }
-#Contactez-moi {
+#Modale {
     color: white;
     background-color: #FF9A16;
     padding: 5px;
     font-size: 16px;
     font-weight: 600;
+    &:hover {
+        background-color: #E7174A;
+    }
+}
+#Dialog {
+    background-color: white;
+    height: 200px;
+    width: 500px;
+    margin: 400px auto;
+}
+#Dialog p {
+    color: black;
+    text-align: center;
+    margin: 50px 0;
+}
+#Dialog button {
+    display: block;
+    margin: 10px auto;
 }
 
 /* Section 1 */
@@ -91,7 +112,7 @@ header li {
 }
 
 
-/* Section 4 */
+/* Section 2 */
 
 #Section-2 img {
     width: 414.67px;
@@ -141,6 +162,9 @@ header li {
     font-size: 16px;
     padding: 10px 10px;
     margin: 15px 10px;
+    &:hover {
+        background-color: #E7174A;
+    }
 }
 
 /* Section 3 */

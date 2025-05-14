@@ -24,3 +24,4 @@ Close.addEventListener("click", (e) => {
     dialog.close();
     
 })
+
