@@ -148,6 +148,7 @@ header li {
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin: 35px 0;
 }
 #Section-3 li {
     list-style: none;
@@ -176,4 +177,29 @@ footer p {
     font-weight: 400;
     font-size: 16px;
     text-align: center;
+}
+
+@media screen and (max-width:1024px) {
+
+    /* header */ 
+
+    #burgermenu{
+        display: flex;
+        color: white;
+        font-weight: 900;
+        font-size: 16px;
+    }
+    nav {
+        display: none;
+    }
+
+    /* Section 2 */
+
+    #Project{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }   
+    #Portfolio {
+        grid-template-columns: 1fr;
+    }
 }
