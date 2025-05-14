@@ -318,10 +318,12 @@ footer p {
         display: none; 
     }
     .nav-links.active {
-        display: block; 
+        display: block;
+        position: relative;
+        top: 20px; 
+        left: 250px;
     }
    
-
     /* Section 1 */
 
     #Section-1 div {    
@@ -329,7 +331,6 @@ footer p {
         grid-template-columns: 1fr ;
         gap: 100px;
     }
-
     #Section-1 img {
         width: 369px;
         height: 369px;
