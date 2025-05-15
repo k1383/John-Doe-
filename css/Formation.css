@@ -172,20 +172,22 @@ header li {
 
 #Section-3 h2 {
     color: white;
+    text-align: center;
     font-family: var(--Raleway);
     font-weight: 700;
     font-size: 36px;
-    text-align: center;
-    margin: 50px 0;
+    margin: 30px 0;
 }
-#Section-3 li {
-    list-style: none;
+ summary {
+    list-style: none; 
+}
+details {
     background-color: white;
     margin: 20px 0;
     padding: 15px;
     width: 670px;
 }
-#Section-3 a {
+#Section-3 span {
     color: #FF9A16;
     font-family: var(--Open-Sans);
     font-weight: 600;
@@ -194,6 +196,71 @@ header li {
     border-bottom: 2px solid #E7174A;
     padding: 5px;
 }
+/* Section 3 Article 1 Langages de programmation */
+#Langages-de-programmation {
+    margin: 20px 0;
+}
+#Langages-de-programmation li {
+   margin: 10px 13px;
+}
+
+/* Section 3 Article 2 Frameworks et bibliothèques */
+#Frameworks-et-bibliothèques {
+    margin: 20px 13px;
+}
+#Frameworks-et-bibliothèques div {
+    margin: 10px 43px;
+}
+
+/* Section 3 Article 3 Bases de données */
+#Bases-de-données {
+    margin: 20px 0;
+}
+#Bases-de-données li {
+   margin: 10px 13px;
+}
+
+/* Section 3 Article 4 Outils de développement */
+
+#Outils-de-développement {
+    margin: 20px 0;
+}
+#Outils-de-développement li {
+    margin: 10px 13px;
+}
+
+/* Section 3 Article 5 Conception Web */
+#Conception-Web {
+    margin: 20px 0;
+}
+#Conception-Web li {
+   margin: 10px 13px;
+}
+
+/* Section 3 Article 6 Services Web */
+#Services-Web {
+    margin: 20px 0;
+}
+#Services-Web li {
+   margin: 10px 13px;
+}
+
+/* Section 3 Article 7 Sécurité */
+#Sécurité {
+    margin: 20px 0;
+}
+#Sécurité li {
+    margin: 10px 13px;
+}
+
+/* Section 3 Article 8 Autres compétences */
+#Autres-compétences {
+    margin: 20px 0;
+}
+#Autres-compétences li {
+    margin: 10px 13px;
+}
+
 #Compétences {
     display: flex;
     justify-content: space-between;
@@ -325,7 +392,7 @@ footer p {
 
     /* Section 3 */
 
-    #Section-3 li {
+    details {
         width: 440px;
     }
 

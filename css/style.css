@@ -508,7 +508,7 @@ footer p {
     }
     /* Section 3 */
 
-    #Section-3 li {
+    details {
         width: 440px;
     }
 
@@ -570,7 +570,7 @@ footer p {
         display: grid;
         grid-template-columns: 1fr;
     }
-     #Section-3 li {
+    details {
         width: 265px;
     }
 
