@@ -257,6 +257,9 @@ footer p {
         right: 5%;   
         top: 1%;
     }
+    #Dialog {
+        margin: 113px 500px;
+    }
 
     /* Section 2 */
 

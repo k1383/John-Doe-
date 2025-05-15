@@ -9,7 +9,7 @@ burgermenu.addEventListener("click", function() {
 
 const Open = document.getElementById("Modale");
 const dialog = document.getElementById("Dialog");
-const close = document.getElementById("Close")
+const Close = document.getElementById("Close")
 
 
 Open.addEventListener("click", (e) => {

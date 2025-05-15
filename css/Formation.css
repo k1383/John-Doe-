@@ -312,4 +312,39 @@ footer p {
         right: 5%;   
         top: 1%;
     }
+     #Dialog {
+        margin: 113px 500px;
+    }
+
+    /* Section */
+
+    #Section-2 div {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    /* Section 3 */
+
+    #Section-3 li {
+        width: 440px;
+    }
+
+     /* Section 4 */
+
+    #Project{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }   
+}
+
+
+@media screen and (max-width:767px) {
+
+    /* header */
+    
+     #Dialog {
+        margin: 113px auto;
+        height: 400px;
+        width: 250px;
+    }
 }

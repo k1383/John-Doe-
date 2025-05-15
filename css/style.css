@@ -389,6 +389,9 @@ footer p {
         position: absolute;
         right: 5%
     }
+     #Dialog {
+        margin: 113px 500px;
+    }
     
     /* Section 1 */
 
@@ -455,7 +458,12 @@ footer p {
 
 @media screen and (max-width:767px) {
     /* header */
-
+    
+     #Dialog {
+        margin: 113px auto;
+        height: 400px;
+        width: 250px;
+    }
     /* Section 1 */
 
     #Section-1 img {
@@ -469,8 +477,31 @@ footer p {
         height: 203px;
         width: 203px;
     }
+    #div1 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #Formation {
+        width: 290px;
+        height: 697px;
+    }
+    #div2 {
+        flex-direction: column-reverse;
+    }
+    #Formation-2 {
+        width: 290px;
+        height: 697px;
+    }
 
     /* Section 3 */
+
+    #Compétences {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+     #Section-3 li {
+        width: 265px;
+    }
 
     /* Section 4 */
 
