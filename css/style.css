@@ -413,13 +413,29 @@ footer p {
     #Formation {
         position: relative;
         top: 10px;
-        right: 90px;
+        height: 609px;
+        width: 321.41px;
     }
     #Formation-2 {
         position: relative;
         top: 10px;
+        height: 609px;
+        width: 321.41px;
     }
-
+    #IMGDev {
+        position: relative;
+        top: 55px;
+    }
+    #IMGdwwn {
+        position: relative;
+        top: 55px;
+    }
+    #div1 a {
+        left: 100px;
+    }
+    #div2 a {
+        left: 100px;
+    }
     /* Section 3 */
 
     #Section-3 li {
