@@ -382,7 +382,7 @@ footer p {
         display: none; 
     }
     .nav-links li {
-        margin: 7px 0;
+        margin: 15px ;
     }
     .nav-links.active {
         display: block;
@@ -451,6 +451,10 @@ footer p {
         display: grid;
         grid-template-columns: 1fr 1fr ;
     }   
+    #Portfolio {
+    
+       margin: 0 auto;
+    }
    
     
 
@@ -458,7 +462,7 @@ footer p {
 
 @media screen and (max-width:767px) {
     /* header */
-    
+
      #Dialog {
         margin: 113px auto;
         height: 400px;
