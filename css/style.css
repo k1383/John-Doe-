@@ -85,6 +85,8 @@ header li {
     color: #FF9A16;
     font-weight: 600;
     font-size: 20px;
+    display: flex;
+    justify-content: end;
 }
 #Dialog p {
     color: black;
@@ -112,6 +114,9 @@ header li {
     color: white;
     padding: 12px 30px;
     border: #011826;
+    &:hover {
+        background-color: #E7174A;
+    }
 }
 /* Section 1 */
 #Section-1 {
