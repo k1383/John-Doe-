@@ -518,16 +518,14 @@ footer p {
         display: grid;
         grid-template-columns: 1fr 1fr ;
     }   
-    #Portfolio {
     
-       margin: 0 auto;
-    }
    
     
 
 }
 
 @media screen and (max-width:767px) {
+
     /* header */
 
      #Dialog {

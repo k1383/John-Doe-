@@ -359,6 +359,7 @@ footer p {
 
 
 @media screen and (max-width:1024px) {
+
     /* header */ 
 
     #burgermenu{
@@ -379,15 +380,19 @@ footer p {
         right: 5%;   
         top: 1%;
     }
-     #Dialog {
+    #Dialog {
         margin: 113px 500px;
     }
 
-    /* Section */
+    /* Section 1 */
 
     #Section-2 div {
         display: grid;
         grid-template-columns: 1fr;
+    }
+    #Section img {
+        width: 738px;
+        height: 738px;
     }
 
     /* Section 3 */
